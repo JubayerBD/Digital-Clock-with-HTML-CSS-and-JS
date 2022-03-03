@@ -1,0 +1,95 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.st3{
+  animation: clock 63s infinite;
+  transform-origin: center;
+  z-index: 1000;
+}
+@keyframes clock {
+  0%{
+    transform: rotate(0);
+  }
+  5%{
+    transform: rotate(18deg);
+  }
+  10%{
+    transform: rotate(36deg);
+  }
+  15%{
+    transform: rotate(54deg);
+  }
+  20%{
+    transform: rotate(72deg)
+  }
+  25%{
+    transform: rotate(90deg)
+  }
+  30%{
+    transform: rotate(108deg)
+  }
+  35%{
+    transform: rotate(126deg)
+  }
+  40%{
+    transform: rotate(144deg)
+  }
+  45%{
+    transform: rotate(162deg)
+  }
+  50%{
+    transform: rotate(180deg)
+  }
+  55%{
+    transform: rotate(198deg)
+  }
+  60%{
+    transform: rotate(216deg)
+  }
+  65%{
+    transform: rotate(236deg)
+  }
+  70%{
+    transform: rotate(252deg)
+  }
+  75%{
+    transform: rotate(270deg)
+  }
+  80%{
+    transform: rotate(288deg)
+  }
+  85%{
+    transform: rotate(306deg)
+  }
+  90%{
+    transform: rotate(324deg)
+  }
+  95%{
+    transform: rotate(342deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+#clock-section{
+  position: relative;
+}
+.time{
+  text-align: center;
+  background-color: red;
+  width: 150px;
+  position: absolute;
+  top: 150px;
+  left: 40%;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  z-index: 99;
+}
+.analog-clock{
+  position: absolute;
+  top:30px
+}
